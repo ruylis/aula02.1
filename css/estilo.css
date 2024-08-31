@@ -1,0 +1,42 @@
+body {
+    background-color: #aa3307;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  #header{
+    background-color: #9a5626;
+    
+    color: rgb(253, 253, 241);
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  #nav {
+    background-color: rgb(223, 223, 209);
+    width: 20%;
+    margin-right: 1%;
+  }
+  
+  #content {
+    background-color: rgb(69, 30, 210);
+    width: 79%;
+  }
+  
+  #footer {
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    height: 200px;
+  }
+  
+  #header,
+  #nav,
+  #content,
+  #footer {
+    float: left;
+  }
+  
+  #header,
+  #footer {
+    width: 100%;
+  }
